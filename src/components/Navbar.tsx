@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { Bot, Menu } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
+import { Sheet, SheetContent, SheetTrigger, SheetTitle } from '@/components/ui/sheet';
 import { useState } from 'react';
 
 export function Navbar() {
@@ -35,6 +35,7 @@ export function Navbar() {
               </Button>
             </SheetTrigger>
             <SheetContent side="right" className="w-full max-w-xs">
+              <SheetTitle className="sr-only">Menu</SheetTitle>
               <div className="flex flex-col p-6">
                 <Link href="/" className="mb-8 flex items-center gap-2" onClick={() => setIsOpen(false)}>
                   <Bot className="h-7 w-7 text-primary" />
