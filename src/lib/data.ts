@@ -23,7 +23,6 @@ export const productDetails: { [key: string]: any } = {
       'Core functionality overview for live server status.',
       'Automation features for periodic server monitoring.',
       'Customization options for commands and notifications.',
-      'Performance and reliability focus for 24/7 uptime.',
     ],
     pricing: {
       free: {
