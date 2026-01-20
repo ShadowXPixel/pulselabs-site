@@ -15,7 +15,7 @@ export function Footer() {
             <Link href="/services" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                 Services
             </Link>
-            <Link href="https://discord.gg/placeholder" target="_blank" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+            <Link href="https://discord.com/users/1399341822383489024" target="_blank" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                 Contact
             </Link>
         </div>

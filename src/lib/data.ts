@@ -11,7 +11,7 @@ export const services = [
     name: 'Custom Discord Bot',
     description: 'Tailored Discord bots built for specific community needs.',
     cta: 'Contact PulseLabs',
-    link: 'https://discord.gg/placeholder',
+    link: 'https://discord.com/users/1399341822383489024',
   },
 ];
 
@@ -45,6 +45,6 @@ export const productDetails: { [key: string]: any } = {
       },
     },
     setupNote: 'You will be redirected to Discord to complete setup with PulseLabs.',
-    contactLink: 'https://discord.gg/placeholder-dm'
+    contactLink: 'https://discord.com/users/1399341822383489024'
   },
 };

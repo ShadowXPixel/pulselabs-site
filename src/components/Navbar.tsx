@@ -23,7 +23,7 @@ export function Navbar() {
         </nav>
         <div className="hidden items-center gap-4 md:flex">
           <Button asChild variant="default" className="transition-transform duration-300 hover:scale-105">
-            <Link href="https://discord.gg/placeholder" target="_blank">Contact</Link>
+            <Link href="https://discord.com/users/1399341822383489024" target="_blank">Contact</Link>
           </Button>
         </div>
         <div className="md:hidden">
@@ -51,7 +51,7 @@ export function Navbar() {
                   </Link>
                 </nav>
                 <Button asChild className="mt-8">
-                  <Link href="https://discord.gg/placeholder" target="_blank">
+                  <Link href="https://discord.com/users/1399341822383489024" target="_blank">
                     Contact
                   </Link>
                 </Button>

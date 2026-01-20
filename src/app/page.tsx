@@ -45,7 +45,7 @@ export default function Home() {
                   </Link>
                 </Button>
                 <Button asChild size="lg" variant="outline" className="transition-transform duration-300 hover:scale-105">
-                  <Link href="https://discord.gg/placeholder" target="_blank">
+                  <Link href="https://discord.com/users/1399341822383489024" target="_blank">
                     Contact / Add Bot
                   </Link>
                 </Button>
