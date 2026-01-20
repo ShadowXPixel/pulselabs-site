@@ -18,7 +18,7 @@ export default function ProductDetailPage() {
         <CardHeader>
           <CardTitle className="font-headline">{tierData.name}</CardTitle>
           <CardDescription>
-            {tier === 'free' ? 'For basic needs and manual use.' : 'For automated and advanced server management.'}
+            {tier === 'free' ? 'For testing out our product , or basic needs..' : 'For automated and advanced server management.'}
           </CardDescription>
         </CardHeader>
         <CardContent className="flex-grow">
